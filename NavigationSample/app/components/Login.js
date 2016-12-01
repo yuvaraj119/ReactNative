@@ -137,7 +137,7 @@ const LoginView = ({_handleNavigate}) => {
             ToastAndroid.show('Enter a Password', ToastAndroid.LONG)
         } else {
             _showProgress.progress=true;
-            fetch('http://vipwebservice.colanonline.net/User/ValidateUser', {
+            fetch('http://vip.online.net/User/ValidateUser', {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',
