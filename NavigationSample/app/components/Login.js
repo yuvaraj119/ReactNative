@@ -27,7 +27,7 @@ const _values = {
 }
 
 const _showProgress = {
-    progress: true
+    progress: false
 }
 
 validateEmail = (email) => {
